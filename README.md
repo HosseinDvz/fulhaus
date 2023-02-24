@@ -8,8 +8,12 @@ Finally this application now lives for ever in this address : "https://fulhausfi
 
 I pushed the that api to Heroku and my personal Git from my VScode studio whcihc was one of the task requirements.
 
-In a nustshell, in this API, I call a well-trained model (%100 accuracy in last epoch), get a picture through the test.py, do the transforamtion a prediction in 
+In a nustshell, in this API, I call a well-trained model (%100 accuracy in last epoch), get a picture through the test.py, do the transforamtion a prediction 
+and return a dictionary in the following form:
 
+```
+{"class_name":"Chair","prediction":1}
+```
 
 
 
